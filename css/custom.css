@@ -1,0 +1,47 @@
+/*custom*/
+
+body{
+	font-family: "Roboto", Arial;
+
+}
+.container {
+	width: 100%;
+	float:left;
+}
+.fl-right{float: right;}
+.menu{
+	float:right;
+	clear:both;
+}
+.menu li{
+	display: inline;
+	margin:0 15px;
+}
+.menu a {
+	text-decoration: none;
+	color:#444;
+	font-size: 1.0em;
+	transition:font-size 1.2s;
+}
+.menu a:hover{
+	font-size: 1.6em;
+}
+section .content1{
+	width: 70%
+	float:left;
+	padding: 15px;
+}
+aside{
+	float:right;
+
+}
+.footer{
+	bottom: 0;
+	border: 1px solid red;
+	float: left;
+	clear: both;
+	width: 100%;
+}
+.footer ul {float:right; padding: 10px}
+.footer li {display: inline-table;}
+.social-footer li{margin:0 15px; color:#444;}
