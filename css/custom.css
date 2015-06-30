@@ -22,9 +22,12 @@ body{     font-family: "Roboto", Arial;     background: #030E1B ; }
 
 
 
-.slider img{
-	width:100%;
-}
+.slider{ position: relative; left: 0; top: 0;}
+.slider img{}
+.slider a{}
+.slider .arrow{color:#FFF; }
+.slider .arrow-left{position: absolute; top:20%; left: 0;}
+.slider .arrow-right{position: absolute; top: 20%; right: 0;}
 /*Notices*/
 .notices{	margin:0 auto;	text-align: center;}
 .notices span {padding: 25px;	display: inline-block;	position: relative;}
@@ -46,7 +49,11 @@ section .content1{	width: 70%;	float:left;	padding: 15px;}
 .margin-auto{margin: 0 auto;}
 .footer ul {float:right; padding: 10px}
 .footer li {display: inline-table;}
-.social-footer li{margin:0 15px; color:#FFF;}
+.footer a {text-decoration: none; color:#FFF; }
+.social-footer li{margin:0 15px; }
+.social-footer .fa-facebook:hover{ color:#3b5998;}
+.social-footer .fa-twitter:hover{ color:#4099FF;}
+.social-footer .fa-google-plus:hover{ color:#dd4b39;}
 .border{border:2px solid red;}
 
 
@@ -54,12 +61,13 @@ section .content1{	width: 70%;	float:left;	padding: 15px;}
 1200px – Desktops, notebooks com monitores widescreen
 ***********************************************************/
 @media screen and (max-width: 1200px){
-      
+      .menu{display: block}
 }
 /*
 960px – Tablets no formato paisagem e alguns monitores mais antigos
 ***********************************************************/
 @media screen and (max-width: 960px){
+	  .menu{display: block}
       .notices article{width: 100%; margin:10px 0;}
       .footer header{position: relative; margin:0 auto;}
 }
@@ -67,8 +75,10 @@ section .content1{	width: 70%;	float:left;	padding: 15px;}
 768px – Tablets no formato retrato, como o iPad
 ***********************************************************/
 @media screen and (max-width: 768px){
-      .menu{display: none;}
-      .menu-icon{display: block; position:relative;}
+      .menu{display: none; z-index: 9000}
+	  .menu ul{background-color: #000; border: 1px solid #FFF;float:left; }
+	  .menu li{width: 100%; float:left;}
+	  .menu-icon{display: block; position:relative;z-index: 9001}
       .notices article{width: 100%; margin:10px 0;}
       .footer header{position: relative; margin:0 auto;}
 }
@@ -76,8 +86,10 @@ section .content1{	width: 70%;	float:left;	padding: 15px;}
 480px – Smartphones no formato paisagem com tela pequena
 ***********************************************************/
 @media screen and (max-width: 480px){
-      .menu{display: none;}
-      .menu-icon{display: block; position:relative;}
+      .menu{display: none; z-index: 9000}
+	  .menu ul{background-color: #000; border: 1px solid #FFF;float:left; }
+	  .menu li{width: 100%; float:left;}
+	  .menu-icon{display: block; position:relative;z-index: 9001}
       .notices article{width: 100%; margin:10px 0;}
       .footer header{position: relative; margin:0 auto;}
 }
