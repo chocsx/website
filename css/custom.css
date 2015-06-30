@@ -8,49 +8,24 @@
 .font500{font-weight: 500;}
 .font700{font-weight: 700;}
 
-.sectiontitle{font-size: 1.8em}
+.sectiontitle{font-size: 1.8em} 
 .articletitle{font-size: 1.6em;}
+/*Responsive*/ 
+img,embed,object,video {  width: 100%; } 
+body{     font-family: "Roboto", Arial;     background: #030E1B ; }
+.container {     width: 100%;     float:left;     background: #0A315B;     color:#FFF; }
+.container header{     float: left;     padding: 15px; }
+ /*MENU*/ 
+ .menu{  position:absolute; top: 0; right: 0;} 
+.menu ul{   padding:27px 15px;} 
+.menu li{display: inline;    margin:25px;    } 
+.menu a {   text-decoration: none;color:#FFF; font-size: 1.0em;   transition:font-size 1.2s;} 
+.menu a:hover{font-size: 1.8em;}
+.menu-icon {display: none;} 
+.menu-icon {text-decoration:none; color:#FFF; float:right; padding: 15px; margin-right: 55px;}
 
-body{
-	font-family: "Roboto", Arial;
-	background: #030E1B ;
-}
-.container {
-	width: 100%;
-	float:left;
-	background: #0A315B;
-	color:#FFF;
-}
-.container header{
-	float: left;
-	padding: 15px;
-}
-.menu{
-	position: absolute;
-	top: 0;
-	right: 0;
-}
-.menu ul{
-	padding:27px 15px;
-}
-.menu li{
-	display: inline;
-	margin:25px;
-	}
 
-.menu li:hover{
-	
-}
-.menu a {
-	text-decoration: none;
-	color:#FFF;
-	font-size: 1.0em;
-	transition:font-size 1.2s;
-}
-.menu a:hover{
-	font-size: 1.8em;
 
-}
 .slider img{
 	width:100%;
 }
@@ -87,7 +62,8 @@ body{
 .content article{
 	background:#0E4581;
 	float:left;
-	width: Calc(100% / 3);
+	width: 30%;
+	margin: 5px 10px;
 }
 .content h1 {
 	width: 100%;
@@ -115,7 +91,6 @@ section .content1{
 	padding: 15px;
 }
 .footer footer{
-	position: absolute;
 	top: 0;
 	right: 0;
 }
@@ -124,3 +99,45 @@ section .content1{
 .footer li {display: inline-table;}
 .social-footer li{margin:0 15px; color:#FFF;}
 .border{border:2px solid red;}
+
+
+/*
+1200px – Desktops, notebooks com monitores widescreen
+***********************************************************/
+@media screen and (max-width: 1200px){
+      
+}
+/*
+960px – Tablets no formato paisagem e alguns monitores mais antigos
+***********************************************************/
+@media screen and (max-width: 960px){
+      .notices article{width: 100%; margin:10px 0;}
+      .footer header{position: relative; margin:0 auto;}
+}
+/*
+768px – Tablets no formato retrato, como o iPad
+***********************************************************/
+@media screen and (max-width: 768px){
+      .menu{display: none;}
+      .menu-icon{display: block; position:relative;}
+      .notices article{width: 100%; margin:10px 0;}
+      .footer header{position: relative; margin:0 auto;}
+}
+/*
+480px – Smartphones no formato paisagem com tela pequena
+***********************************************************/
+@media screen and (max-width: 480px){
+      .menu{display: none;}
+      .menu-icon{display: block; position:relative;}
+      .notices article{width: 100%; margin:10px 0;}
+      .footer header{position: relative; margin:0 auto;}
+}
+/*
+320px – Smartphones no formato retrato com tela pequena
+***********************************************************/
+@media screen and (max-width: 320px){
+      .menu{display: none;}
+      .menu-icon{display: block; position:relative;}
+      .notices article{width: 100%; margin:10px 0;}
+      .footer header{position: relative; margin:0 auto;}
+}
