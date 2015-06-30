@@ -5,10 +5,23 @@
 	<title>WebSite From Scratch</title>
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/custom.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script type="text/javascript" src="js/script.js"></script>
 	<link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/owl.theme.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+	<script>
+		$(document).ready(function() {
+		  $("#owl-example").owlCarousel({
+			  navigation : true, // Show next and prev buttons
+		      slideSpeed : 300,
+		      paginationSpeed : 400,
+		      singleItem:true
+		  });
+		});
+	</script>
 </head>
 <body>
 	<section class="container">
@@ -16,6 +29,7 @@
 		<h1 class="sectiontitle">Company Name</h1>
 		<img src="" alt="Logo">
 	</header>
+	<a class="menu-icon" href="#"><i class='fa fa-bars fa-3x'></i></a>
 		<nav class="menu">
 			<ul>
 				<li><a href="#">Home</a></li>
@@ -24,21 +38,16 @@
 				<li><a href="#">Contact</a></li>
 			</ul>
 		</nav>
-			<a class="menu-icon" href="#"><i class='fa fa-bars fa-3x'></i></a>
+			
 	</section>
 	
-	<section class="slider">
-		<a href="#" class="arrow arrow-left">
-			<i class="fa fa-chevron-left fa-5x"></i>
-		</a>
-		<a href="#" class="arrow arrow-right">
-			<i class="fa fa-chevron-right fa-5x"></i>
-		</a>
-	<ul>		
-		<li><img src="media/image1.jpg" alt="Image1" /></li>
-		<li><img src="media/image2.jpg" alt="Image2" /></li>
-		<li><img src="media/image3.jpg" alt="Image3" /></li>
-	</ul>
+	<section id="owl-example" class="owl-carousel">
+			<!--img src="media/image1.jpg" alt="Image1" />
+			<img src="media/image2.jpg" alt="Image2" />
+			<img src="media/image3.jpg" alt="Image3" /-->
+	<div class="item"><img src="media/image1.jpg" alt="The Last of us"></div>
+  	<div class="item"><img src="media/image2.jpg" alt="GTA V"></div>
+  	<div class="item"><img src="media/image3.jpg" alt="Mirror Edge"></div>
 	</section>
 	<section class="content notices">
 		<article class="notice1">

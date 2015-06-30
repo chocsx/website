@@ -8,26 +8,25 @@
 .articletitle{font-size: 1.6em;}
 /*Responsive*/ 
 img,embed,object,video {  width: 100%; } 
-body{     font-family: "Roboto", Arial;     background: #030E1B ; }
-.container {     width: 100%;     float:left;     background: #0A315B;     color:#FFF; }
-.container header{     float: left;     padding: 15px; }
+body{font-family: "Roboto", Arial;background: #030E1B ; }
+.container {width: 100%;background: #0A315B;color:#FFF; }
+.container header{padding: 15px; width:80%;}
  /*MENU*/ 
- .menu{  position:absolute; top: 0; right: 0;} 
-.menu ul{   padding:27px 15px;} 
+.menu{  position:absolute; top: 0; right: 0;} 
+.menu ul{padding:27px 15px;} 
 .menu li{display: inline;    margin:25px;    } 
-.menu a {   text-decoration: none;color:#FFF; font-size: 1.0em;   transition:font-size 1.2s;} 
+.menu a {text-decoration: none;color:#FFF; font-size: 1.0em;   transition:font-size 1.2s;} 
 .menu a:hover{font-size: 1.8em;}
 .menu-icon {display: none;} 
-.menu-icon {text-decoration:none; color:#FFF; float:right; padding: 15px; margin-right: 5px;}
+.menu-icon {text-decoration:none; color:#FFF; float:right; 
+      padding:0 15px; margin-top: -60px }
 
-
-
-.slider{ position: relative; left: 0; top: 0;}
-.slider img{}
-.slider a{}
-.slider .arrow{color:#FFF; }
-.slider .arrow-left{position: absolute; top:20%; left: 0;}
-.slider .arrow-right{position: absolute; top: 20%; right: 0;}
+/*Slider*/
+#owl-demo .item img{
+      display: block;
+    width: 100%;
+    height: 350px;
+}
 /*Notices*/
 .notices{	margin:0 auto;	text-align: center;}
 .notices span {padding: 25px;	display: inline-block;	position: relative;}
@@ -100,7 +99,7 @@ section .content1{	width: 70%;	float:left;	padding: 15px;}
   .menu{display: none; z-index: 9000}
   .menu ul{background-color: #000; border: 1px solid #FFF;float:left; }
   .menu li{width: 100%; float:left;}
-  .menu-icon{display: block; position:relative;z-index: 9001}
+  .menu-icon{display: block; position:relative;z-index: 9001; }
   .notices article{width: 100%; margin:10px 0;}
   .footer header{position: relative; margin:0 auto;}
 }

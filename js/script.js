@@ -1,4 +1,5 @@
 $(document).ready(function(){
+	
     var pull        = $('.menu-icon');
         menu        = $('.menu');
         menuHeight  = menu.height();
@@ -7,4 +8,6 @@ $(document).ready(function(){
         e.preventDefault();
         menu.slideToggle();
     });
+
+
 });
