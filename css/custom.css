@@ -1,47 +1,85 @@
 /*custom*/
 
+/*font-sizes*/
+.font400{font-weight: 400;}
+.font500{font-weight: 500;}
+.font700{font-weight: 700;}
+
+.sectiontitle{font-size: 1.6em}
+.articletitle{font-size: 1.2em}
+
 body{
 	font-family: "Roboto", Arial;
-
+	background: #030E1B ;
 }
 .container {
+	
 	width: 100%;
 	float:left;
+	background: #0A315B;
+	color:#FFF;
 }
-.fl-right{float: right;}
+.container header{
+	float: left;
+	padding: 15px
+}
 .menu{
 	float:right;
-	clear:both;
+
+}
+.menu ul{
+	padding: 10px
 }
 .menu li{
 	display: inline;
-	margin:0 15px;
+	margin:25px;
+
 }
 .menu a {
 	text-decoration: none;
-	color:#444;
+	color:#FFF;
 	font-size: 1.0em;
 	transition:font-size 1.2s;
 }
 .menu a:hover{
 	font-size: 1.6em;
 }
+.slider img{width:100%;}
+.content{
+	background: #11539B;
+}
+.content article{
+	background: #125AA8;
+	width:33%;
+	float:left;
+	border: 1px solid red;
+}
+.content h1 {
+	width: 100%;
+	text-align: center;
+}
+.content p {
+	padding: 25px
+}
+
 section .content1{
 	width: 70%
 	float:left;
 	padding: 15px;
 }
 aside{
+	background: #125AA8;
 	float:right;
+	color:#fff;
 
 }
 .footer{
-	bottom: 0;
-	border: 1px solid red;
 	float: left;
 	clear: both;
 	width: 100%;
+	background: #0E4581;
 }
 .footer ul {float:right; padding: 10px}
 .footer li {display: inline-table;}
-.social-footer li{margin:0 15px; color:#444;}
+.social-footer li{margin:0 15px; color:#FFF;}
+.border{border:2px solid red;}
