@@ -1,8 +1,4 @@
 /*custom*/
-@font-face {
-    font-family:Roboto;
-    src: url(sansation_light.woff);
-}
 /*font-sizes*/
 .font400{font-weight: 400;}
 .font500{font-weight: 500;}
@@ -22,7 +18,7 @@ body{     font-family: "Roboto", Arial;     background: #030E1B ; }
 .menu a {   text-decoration: none;color:#FFF; font-size: 1.0em;   transition:font-size 1.2s;} 
 .menu a:hover{font-size: 1.8em;}
 .menu-icon {display: none;} 
-.menu-icon {text-decoration:none; color:#FFF; float:right; padding: 15px; margin-right: 55px;}
+.menu-icon {text-decoration:none; color:#FFF; float:right; padding: 15px; margin-right: 5px;}
 
 
 
@@ -89,8 +85,10 @@ section .content1{	width: 70%;	float:left;	padding: 15px;}
 320px – Smartphones no formato retrato com tela pequena
 ***********************************************************/
 @media screen and (max-width: 320px){
-      .menu{display: none;}
-      .menu-icon{display: block; position:relative;}
-      .notices article{width: 100%; margin:10px 0;}
-      .footer header{position: relative; margin:0 auto;}
+  .menu{display: none; z-index: 9000}
+  .menu ul{background-color: #000; border: 1px solid #FFF;float:left; }
+  .menu li{width: 100%; float:left;}
+  .menu-icon{display: block; position:relative;z-index: 9001}
+  .notices article{width: 100%; margin:10px 0;}
+  .footer header{position: relative; margin:0 auto;}
 }
