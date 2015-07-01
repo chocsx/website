@@ -103,6 +103,10 @@ body{font-family: "Roboto", Arial;background: #030E1B ; }
     .notices article{width: Calc(88%/3); }
     .testimonials{width:80%;}  
     .user{width:90%;}
+    .portifolio{width: 94%; float: left}
+    .portifolio img{width: 46%; padding: 3.5px }
+    .testimonials{width:100%;}
+    .user{width:85%;}
     .footer header{position: relative; margin:0 auto;}
 }
 /*
@@ -115,7 +119,8 @@ body{font-family: "Roboto", Arial;background: #030E1B ; }
     .menu-icon{display: block; position:relative;z-index: 9001}
     .notices {width: 100%;}
     .notices article{width: 80%; margin:10px 40px }
-    .portifolio img{width: 48%; padding: 3.5px }
+    .portifolio{width: 90%; float: left}
+    .portifolio img{width: 46%; padding: 3.5px }
     .testimonials{width:100%;}  
     .user{width:85%;}
     .footer header{position: relative; margin:0 auto;}
@@ -133,7 +138,8 @@ body{font-family: "Roboto", Arial;background: #030E1B ; }
     .inside-article p {font-size: 1em; width: 90%; margin:0 20px}
     .user{width:80%;margin: 10px;}
     .rate {width: 100%;float: left;}
-    .portifolio img{width: 100%; }
+    .portifolio img{width: 80%; }
+    .portifolio h1{width: 100%; text-align: left}
     .footer header{position: relative; margin:0 auto;}
 }
 /*
