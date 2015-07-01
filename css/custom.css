@@ -24,9 +24,16 @@ body{font-family: "Roboto", Arial;background: #030E1B ; }
 
 /*Slider*/
 #owl-demo .item img{display: block;    width: 100%; float:left;}
+.item img{opacity: 0.6}
 .item h1{color:#FFF; font-size: 3em;padding: 20px; 
 		position: absolute; width: 100%;text-align: center; 
-		text-shadow: 1px 1px 4px #000;}
+		text-shadow: 1px 1px 4px #000; }
+.inside-article{float:left; width: 100%; top:30%; bottom: 0;position: absolute;}
+.inside-article h1{font-size: 1.8em; text-shadow: 1px 1px 4px #000;position: relative;  float:left;}
+.inside-article p {	font-size: 1.6em; color:#FFF;
+					position: relative; width: 100%; 
+					text-align: center;; 
+					float:left;}
 
 /*Notices*/
 .notices{	margin:0 auto;	text-align: center;}
