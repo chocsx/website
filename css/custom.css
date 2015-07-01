@@ -3,6 +3,7 @@
 .font400{font-weight: 400;}
 .font500{font-weight: 500;}
 .font700{font-weight: 700;}
+.nofontsize{font-size: 0em;}
 
 .sectiontitle{font-size: 1.8em} 
 .articletitle{font-size: 1.6em;}
@@ -22,11 +23,11 @@ body{font-family: "Roboto", Arial;background: #030E1B ; }
       padding:0 15px; margin-top: -60px }
 
 /*Slider*/
-#owl-demo .item img{
-      display: block;
-    width: 100%;
-    height: 350px;
-}
+#owl-demo .item img{display: block;    width: 100%; float:left;}
+.item h1{color:#FFF; font-size: 3em;padding: 20px; 
+		position: absolute; width: 100%;text-align: center; 
+		text-shadow: 1px 1px 4px #000;}
+
 /*Notices*/
 .notices{	margin:0 auto;	text-align: center;}
 .notices span {padding: 25px;	display: inline-block;	position: relative;}
