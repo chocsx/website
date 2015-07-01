@@ -36,11 +36,11 @@ body{font-family: "Roboto", Arial;background: #030E1B ; }
 					float:left;}
 
 /*Notices*/
-.notices{	margin:0 auto;	text-align: center;}
+.notices{	margin: auto;	text-align: center;}
 .notices span {padding: 25px;	display: inline-block;	position: relative;}
-.notice1{	background:#7f8c8d !important;	color:#fff;	border-radius: 5px;}
-.notice2{	background:#16a085 !important;	color:#fff;	border-radius: 5px;}
-.notice3{	background:#2c3e50 !important;	color:#fff;	border-radius: 5px;}
+.notice1{	background:#7f8c8d !important;	color:#fff;	border-radius: 5px;padding:15px;}
+.notice2{	background:#16a085 !important;	color:#fff;	border-radius: 5px;padding:15px;}
+.notice3{	background:#2c3e50 !important;	color:#fff;	border-radius: 5px;padding:15px;}
 /*Content*/
 
 .content{	width: 80%;	background: #11539B;}
